@@ -1,7 +1,7 @@
 import requests
 
 base_url = "https://pokemonbattle.me:9104/"
-TOKEN = "12dd9f7b7197fc88e0eb4fd2b2cfdebd"
+TOKEN = "_"
 
 # запрос на создание покемона
 response_add_pokemon = requests.post(f"{base_url}pokemons", headers={"trainer_token" : TOKEN}, json={
