@@ -1,7 +1,7 @@
 import requests
 import pytest
 
-TOKEN = "12dd9f7b7197fc88e0eb4fd2b2cfdebd"
+TOKEN = "_"
 
 # Проверка, что ответ запрос GET /trainers приходит с кодом 200
 def test_ststus_code():
